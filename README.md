@@ -5,6 +5,10 @@ This project analyzes employment and wage trends in California using the Quarter
 
 The final cleaned dataset **is** being prepared for integration with Tableau or Power BI for interactive dashboards.
 
+The interactive dashboard can be accessed at the following link:
+
+**[Insert Tableau or Power BI dashboard link here]**
+
 ## Data Processing Summary
 - Loaded the QCEW dataset and removed rows with missing data to ensure accuracy.  
 - Renamed columns for clarity and converted key numerical columns to appropriate types.  
@@ -15,6 +19,49 @@ The final cleaned dataset **is** being prepared for integration with Tableau or 
 ## Next Steps
 
 Please open the accompanying Jupyter Notebook to explore the detailed data cleaning, analysis, and visualizations.
+
+---
+
+
+# Visualizations
+
+Below are key visualizations generated during the analysis. These help illustrate trends and insights from the employment and wage data.
+
+---
+
+## 1. Average Weekly Wages by Area Type
+
+*Description:*  
+This bar chart shows the average weekly wages grouped by `Area_Type` (e.g., County, MSA). It highlights how wages vary across different regional classifications.
+
+![Weekly Wages by Area Type](weekly_wages_by_area.png)
+
+---
+
+## 2. Total Employment by Area Type
+
+*Description:*  
+A bar plot representing the total average monthly employment across each `Area_Type`. Useful for understanding workforce distribution.
+
+![Total Employment by Area Type](total_employment_by_area.png)
+
+---
+
+## 3. Top 5 Areas by Average Weekly Wage
+
+*Description:*  
+A horizontal bar chart displaying the top 5 highest-paying areas in California based on average weekly wages.
+
+![Top 5 Weekly Wage Areas](top5_weekly_wages.png)
+
+---
+
+## 4. Industry Employment Trends
+
+*Description:*  
+Line plot or heatmap showcasing how employment varies across industries (`Industry_Name`) over time.
+
+![Industry Trends](industry_employment_trends.png)
 
 ---
 
